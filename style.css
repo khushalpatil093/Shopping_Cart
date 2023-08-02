@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Assets/undraw_web_shopping_re_owap\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: right;
+}
+
+navbar .navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    color: white;
+    background-color: black;
+}
+.navContainer .leftPart{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.navContainer .rightPart{
+    display: flex;
+    gap: 4rem;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#main-container{
+    margin: 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding: 3rem 0rem;   
+}
+#main-container .title{
+    font-size: 3rem;
+    cursor: pointer;
+}
+#main-container .para{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+#main-container .btn{
+    display: flex;
+    gap: 1.5rem;
+}
+#login{
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#login a{
+    text-decoration: none;
+    color: white;
+}
+#signup a{
+    text-decoration: none;
+    color: black;
+}
+#signup{
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rightPart a{
+    text-decoration: none;
+    color: white;
+    
+}

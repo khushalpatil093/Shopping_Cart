@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <navbar>
+        <div class="navContainer">
+            <div class="navPart">
+                Shopping Cart
+            </div>
+        </div>    
+    </navbar>
+    <div class="container">
+        <div>
+            <h2>My Profile</h2>
+            <form id="profileForm">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <button type="submit">Save Info</button>
+            </form>
+        </div>
+        <div>
+            <h2>Edit Password</h2>
+            <form id="passwordForm">
+                <input type="text" placeholder="Old Password">
+                <input type="text" placeholder="New Password">
+                <input type="text" placeholder="Confirm New Password">
+                <button type="submit">Change Password</button>
+                <button type="submit">Logout</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
